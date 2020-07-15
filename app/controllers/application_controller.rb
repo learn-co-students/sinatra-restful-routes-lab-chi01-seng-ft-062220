@@ -49,7 +49,8 @@ end
 
   delete '/recipes/:id' do #destroy action
     @recipe = Recipe.find(params[:id])
-    @recipe.delete
+    @recipe.destroy
+    # @recipe.delete
     redirect to '/recipes'
   end
 
