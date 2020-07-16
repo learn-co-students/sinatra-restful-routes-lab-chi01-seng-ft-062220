@@ -1,0 +1,1 @@
+Recipe.create(name: "bread", ingredients: "flour, yeast, butter, sugar, water", cook_time: "45 min")
